@@ -1,0 +1,69 @@
+
+#header,
+.board-header,
+.card-composer-container,
+.list-header-extras-menu,
+#board::-webkit-scrollbar,
+.u-fancy-scrollbar::-webkit-scrollbar
+{
+    display: none;
+}
+.board-wrapper {
+    background: #2a2c33;
+}
+#board::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+}
+#board{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.list-wrapper:first-child {
+    margin-left: 4px;
+}
+.list-wrapper {
+    width: 32.5%;
+}
+.list-card {
+    max-width: 100%
+}
+.list-wrapper:nth-child(4),
+.list-wrapper:nth-child(5),
+.list-wrapper:nth-child(6),
+.list-wrapper:nth-child(7),
+.list-wrapper:nth-child(8),
+.list-wrapper:nth-child(9),
+.list-wrapper:nth-child(10),
+.list-wrapper:nth-child(11),
+.list-wrapper:nth-child(12),
+.list-wrapper:nth-child(13),
+.list-wrapper:nth-child(14),
+.list-wrapper:nth-child(15)
+{
+    display: none;
+}
+.list-card-title {
+    font-weight: 500;
+}
+.list-card-cover{
+    display: none;
+}
+
+.list {
+    background-color: #2a2c3300;
+}
+#board {
+    width: 98%;
+    margin: auto;
+    display: block;
+}
+
+.iframe-input, input:not([type=file]), textarea {
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px !important;
+    height: 30px !important;
+}
