@@ -2,11 +2,12 @@
 #header,
 .board-header,
 .card-composer-container,
+.js-card-composer-container,
 .list-header-extras-menu,
 #board::-webkit-scrollbar,
 .u-fancy-scrollbar::-webkit-scrollbar
 {
-    display: none;
+    display: none !important;
 }
 .board-wrapper {
     background: #2a2c33;
