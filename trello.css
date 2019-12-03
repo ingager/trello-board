@@ -68,3 +68,8 @@
     margin-bottom: 10px !important;
     height: 30px !important;
 }
+
+
+.badge-text {
+    font-size: 6px;
+}
