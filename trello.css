@@ -121,3 +121,20 @@
 .calendar-week .calendar-day.today {
     background-color: #52545d;
 }
+
+.day-column:nth-child(6), .quiet:nth-child(6),
+.day-column:nth-child(7), .quiet:nth-child(7){
+    display:none;
+
+}
+
+.days-of-week {
+    grid-template-columns: repeat(5,1fr);
+}
+.day-column {
+    position: relative;
+    height: 100%;
+    margin: 0 .5%;
+    float: left;
+    width: 19%;
+}
